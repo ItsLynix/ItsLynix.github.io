@@ -1,0 +1,137 @@
+echo Cutie! You may need to enter your password below!
+sleep 3
+[ "$UID" -eq 0 ] || exec sudo bash "$0" "$@" | sudo echo Root privileges granted!
+echo "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+echo "Hewwo sweetheart!
+"
+sleep 1
+echo I'm going to do some cool stuff by upgrading
+the kernel (the thing that makes linux work)
+with this cool script I made! Which you're
+echo "currently watching me speak to you with! x3
+"
+sleep 10
+echo This is your current kernel:
+uname -r
+sleep 2
+echo "
+As you see, it ends with generic, so it wont"
+echo give you all the performance its supposed to.
+sleep 3
+echo "
+And you know, that is boring!"
+sleep 5
+echo "
+Let's get into it! >:3"
+sleep 3
+echo "
+I'm going to upgrade your kernel to 5.17.0-12.1-liquorix-amd64."
+sleep 5
+echo "
+It is a lot more optimized than the generic kernel, and it can
+properly take advantage of the power in your cpu, for gaming
+and more!"
+sleep  15
+echo "
+Alrighty cutie, let's do this."
+sleep 1
+echo "I'm gonna install some necessary things and then we'll
+be done!"
+sleep 1
+echo "
+If you see some errors, don't worry about it <3, I'lll
+check on that when we vc later!"
+sleep 5
+echo "
+Just checking that we're in sudo still..."
+sudo echo "Looks like it works, alright. Let's go!"
+sleep 5
+echo "
+
+Just let things install, I may need you to press enter to confirm
+things for the installer from time to time, Just cooperate with me <3"
+sleep 5
+echo "
+Starting the process now!"
+sleep 2
+echo "5"
+sleep 1
+echo "4"
+sleep 1
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+echo "Go!
+
+
+
+"
+sleep 5
+echo "Initiating stage 1!
+Importing repositories and updating sources."
+sleep 1
+sudo add-apt-repository ppa:damentz/liquorix && sudo apt-get update
+sleep 1
+echo "
+Stage 1 completed successfully (I hope <3)
+"
+sleep 5
+echo "I'm going to proceed with stage 2 now!"
+sleep 5
+echo "Initiating stage 2!
+Downloading and installing upgraded kernel packages!"
+sleep 5
+sudo apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64
+echo "
+Alright! That should be all sweetie.
+
+All that's left is a reboot. Once this script finishes, simply type 'reboot'
+in this window and press enter! Then continue with what you were doing earlier
+and wait for when I get home!
+"
+sleep 15
+echo "
+Finalizing..."
+echo "  > Calling you cute...
+You're cute!"
+sleep 5
+echo "  > Finished installing kernel parameters."
+echo "Finalized successfully!"
+sleep 3
+echo "
+
+It has been a pleasure speaking to you through this script and I've upgraded your
+kernel now! Do hope you had some real cute reactions! >:3, see you when I'm home sweetie!"
+sleep 2
+echo "
+And remember, reboot now uwu"
+sleep 1
+echo "Script completed successfully."
