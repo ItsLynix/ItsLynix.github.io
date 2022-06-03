@@ -109,7 +109,7 @@ sleep 5
 echo "Initiating stage 2!
 Downloading and installing upgraded kernel packages!"
 sleep 5
-sudo apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64
+sudo apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64 -y
 echo "
 Alright! That should be all sweetie.
 
